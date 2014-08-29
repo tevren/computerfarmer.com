@@ -21,4 +21,4 @@ namespace :computerfarmer do
   end
 end
 
-task :default => ["computerfarmer:compile"]
+task :default => ["computerfarmer:compile","computerfarmer:deploy"]

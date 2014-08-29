@@ -3,12 +3,8 @@ layout: page
 title: About
 permalink: /about/
 ---
-I have various hobbies. Most of them involve over-engineering simple tasks or learning new things through pratical applications. This site is where I'll document my adventures.
+I'm a systems engineer and rubyist based out of NYC. I'm deeply interested in configuration management, release engineering, monitoring, and over-engineering all of the above. Over Engineering on purpose allows me to experiment and learn via application. I've started this site as a record of my adventures for future reference for myself and anyone else who may find it useful. 
 
-Typically I write my code in ruby, with the occasional perl here and there.
-
-In my free time, I try to learn ruby, build useless projects and become a better overall Ops person.
+Currently I work a lot with [Ruby](https://www.ruby-lang.org/en/), [Chef](http://www.getchef.com/), and [Jenkins](http://jenkins-ci.org/). Previously I worked a lot with OS X and recorded my exploits at: [Columbia OS X Management](http://coxmanagement.wordpress.com/).
 
 If you'd like to learn more about me, feel free to browse through my github profile and email me. The links are in the site footer. 
-
-This site is built using [Jekyll](http://jekyllrb.com/) and [Bootstrap](http://getbootstrap.com/).
