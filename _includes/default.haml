@@ -1,0 +1,15 @@
+!!!
+%html
+  {% convert_include head.haml %}
+  %body
+    .container
+      .row
+        {% convert_include header.haml %}
+      .row
+        .col-md-9
+          {{ content }}
+        .col-md-3
+          {% convert_include sidebar.haml %}
+      .row
+        {% convert_include footer.haml %}
+        {% javascript application %}

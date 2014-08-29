@@ -1,0 +1,19 @@
+.sidebar
+  %ul.nav.sidenav.nav-pills.nav-stacked
+    %li
+      %a{:href => "/"}Home
+    {% for page in site.pages %}
+    {% if page.title %}
+    %li
+      %a{:href => "{{ page.url | prepend: site.baseurl }}"} {{ page.title }}
+    {% endif %}
+    {% endfor %}
+    %li.disabled
+      %a.disabled{:href => "#"} Reading Material
+      %ul.nav.sidenav.nav-pills.nav-stacked
+        %li
+          %a{:href => "http://blog.9minutesnooze.com/"} 9minutesnooze
+        %li
+          %a{:href => "http://www.hazrac.org/"} Hazrac
+        %li
+          %a{:href => "https://sethvargo.com"} Seth Vargo

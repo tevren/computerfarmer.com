@@ -1,0 +1,24 @@
+# Site settings
+title: Computer Farmer
+email: anurag@mohanty.io
+user: Anurag Mohanty
+description: Notes to future me from past me.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://computerfarmer.com" # the base hostname & protocol for your site
+twitter_username: tevren
+github_username:  tevren
+
+# Build settings
+exclude: ['README.md', 'Gemfile', 'Gemfile.lock', 'Rakefile', 's3_website.yml']
+markdown: kramdown
+permalink: pretty
+
+assets:
+  debug: false
+  js_compressor: uglifier
+  css_compressor: sass
+  sources:
+    - _assets/javascripts
+    - _assets/stylesheets
+    - _vendors/stylesheets
+    - _vendors/javascripts
