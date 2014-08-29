@@ -4,3 +4,9 @@ rvm:
 script: bundle exec jekyll build
 install: bundle install
 after_success: bundle exec s3_website push
+notifications:
+  email:
+    recipients:
+      - anurag@mohanty.io
+    on_success: [always|never|change] # default: change
+    on_failure: [always|never|change] # default: always
