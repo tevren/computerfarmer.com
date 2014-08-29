@@ -19,6 +19,6 @@ namespace :computerfarmer do
   task :deploy do
     system "s3_website push"
   end
-
-  task :default => ["computerfarmer:compile", "computerfarmer:deploy"]
 end
+
+task :default => ["computerfarmer:compile", "computerfarmer:deploy"]
